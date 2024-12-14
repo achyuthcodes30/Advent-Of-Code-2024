@@ -4,6 +4,7 @@ defmodule D13 do
     b = (px - ax * a) / bx
 
     if a - trunc(a) == 0 and b - trunc(b) == 0 do
+      IO.inspect({a, b})
       3 * a + b
     else
       0
